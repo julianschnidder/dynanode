@@ -4,7 +4,7 @@ program main
     implicit none
 
     integer :: k,l
-    integer, parameter :: MATRIXSIZE=5000
+    integer, parameter :: MATRIXSIZE=5
     real(kind=dp),dimension(MATRIXSIZE,MATRIXSIZE) :: hilb=0_dp
 
     ! construct a hilbert matrix
@@ -15,5 +15,5 @@ program main
     end do
 
     ! lets print the result
-    print *, hilb(1,4)
+    print *, hilb
 end program main
