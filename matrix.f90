@@ -1,4 +1,4 @@
 module matrix
-    use double, only: dp
+    use double
     implicit none
 end module matrix
