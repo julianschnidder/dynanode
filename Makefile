@@ -15,5 +15,5 @@ clean: deps
 	$(MAKE) -f $(MAKEFILE) clean
 
 distclean: clean
-	$(RM) $(MAKEFILE) main
+	$(RM) $(MAKEFILE) main *~
 
